@@ -1,0 +1,218 @@
+{
+    "192.243.1.129": {
+        "ip": "192.243.1.129",
+        "connectedTo": [
+            "176.208.85.204",
+            "170.107.145.245"
+        ],
+        "info": {
+            "os": "Windows 10 v21H1 (OS Build 19043.1348)",
+            "cpu": "Intel Core i5-8400 2.8 GHz 6-Core",
+            "gpu": "Gigabyte WINDFORCE OC GeForce RTX 3060 12GB",
+            "ram": "2GB DDR3 1333MHz",
+            "storage": "Western Digital AV 320 GB 3.5\" 7200 RPM"
+        },
+        "isInfected": true
+    },
+    "176.208.85.204": {
+        "ip": "176.208.85.204",
+        "connectedTo": [
+            "19.88.193.222",
+            "192.243.1.129"
+        ],
+        "info": {
+            "os": "Windows 10 v20H8 (OS Build 17034.1241)",
+            "cpu": "AMD Ryzen 5 3600 3.6 GHz 6-Core",
+            "gpu": "Asus STRIX GAMING GeForce GTX 1080 Ti 11 GB",
+            "ram": "16 GB DDR4 3200MHz",
+            "storage": "Samsung 970 Evo Plus 2 TB NVMe SSD"
+        },
+        "hackingMinigame": 1
+    },
+    "170.107.145.245": {
+        "ip": "170.107.145.245",
+        "connectedTo": [
+            "19.88.193.222",
+            "192.243.1.129"
+        ],
+        "info": {
+            "os": "Windows XP v5.1.2600.5512 (SP3)",
+            "cpu": "Intel Pentium Gold G6405 4.1 GHz Dual-Core",
+            "gpu": "Zotac ZT-71310-10L GeForce GT 710 2 GB",
+            "ram": "2GB DDR3 1333MHz",
+            "storage": "Western Digital AV 320 GB 3.5\" 7200 RPM"
+        },
+        "hackingMinigame": 2
+    },
+    "19.88.193.222": {
+        "ip": "19.88.193.222",
+        "connectedTo": [
+            "7.238.221.33",
+            "71.133.170.146",
+            "170.107.145.245",
+            "176.208.85.204"
+        ],
+        "info": {
+            "os": "Windows 10 v20H8 (OS Build 17034.1241)",
+            "cpu": "AMD FX-9590 4.7 GHz 8-Core",
+            "gpu": "Asus TUF GAMING OC GeForce RTX 4070 12 GB",
+            "ram": "8GB DDR5 6200MHz",
+            "storage": "Kingston Predator 240 GB NVMe SSD"
+        },
+        "hackingMinigame": 3
+    },
+    "7.238.221.33": {
+        "ip": "7.238.221.33",
+        "connectedTo": [
+            "19.88.193.222"
+        ],
+        "info": {
+            "os": "Debian v11.7 (Bullseye)",
+            "cpu": "Intel Core i5-12400F 2.5 GHz 6-Core",
+            "gpu": "Intel Limited Edition Arc A770 16 GB",
+            "ram": "16GB DDR4 4200MHz",
+            "storage": "Intel 670p 1TB NVMe SSD"
+        },
+        "hackingMinigame": 1
+    },
+    "71.133.170.146": {
+        "ip": "71.133.170.146",
+        "connectedTo": [
+            "53.130.18.123",
+            "209.250.43.104",
+            "19.88.193.222"
+        ],
+        "hackingMinigame": 4
+    },
+    "53.130.18.123": {
+        "ip": "53.130.18.123",
+        "connectedTo": [
+            "71.133.170.146"
+        ],
+        "info": {
+            "os": "Arch Linux v2023.04.01",
+            "cpu": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core",
+            "gpu": "ASRock Challenger D Radeon RX 6600 8 GB",
+            "ram": "32GB DDR5 5200MHz",
+            "storage": "Samsung 980 Pro 1TB NVMe SSD"
+        },
+        "hackingMinigame": 2
+    },
+    "209.250.43.104": {
+        "ip": "209.250.43.104",
+        "connectedTo": [
+            "192.168.0.69",
+            "71.133.170.146"
+        ],
+        "info": {
+            "os": "MacOS v13.3 (22E252)",
+            "cpu": "Intel Xeon W-3275 2.5 GHz 28-Core",
+            "gpu": "AMD Radeon Pro W5700X 16 GB",
+            "ram": "32GB DDR4 2666MHz ECC",
+            "storage": "Apple 2 TB SSD"
+        },
+        "hackingMinigame": 3
+    },
+    "192.168.0.69": {
+        "ip": "192.168.0.69",
+        "isFotiadu": true,
+        "connectedTo": [
+            "209.250.43.104"
+        ],
+        "info": {
+            "cpu": "AMD Threadripper 3990X 2.9GHz 64-Core",
+            "gpu": "PNY RTX A6000 48GB (x2 SLI)",
+            "ram": "128GB DDR5 5600MHz",
+            "storage": "Corsair MP600 PRO XT 8TB PCIe 4.0 NVMe SSD (x2 RAID 0)"
+        },
+        "pass": "ed:e8:e4:56:be:40:42:91:0d:8c:7a:b2:c1:34:f5:0a",
+        "processes": [
+            ["Discord.exe", "17840", "Running (minimized)", [3978114513, 3977822576]],
+            ["cmd.exe", "9148", "Running (background)", [1913077506, 1913074307]],
+            ["Spotify.exe", "5716", "Running (minimized)", [3040244990, 3040249466]],
+            ["steam.exe", "21620", "Running (minimized)", [1073047108, 1073060262]],
+            ["LeagueOfLegends.exe", "8491", "Running", [2275926201, 2694932270]]
+        ],
+        "hackingMinigame": 5,
+        "fs": {
+            "C:": {
+                "Users": {
+                    "Downloads": {
+                        "content": ["corrige-bareme-IEFS.pdf"]
+                    }, 
+                    "Documents": {
+                        "Games": {
+                            "Cyberpunk 2077": {
+                                "bin": {
+                                    "x64": {
+                                        "content": ["amd_ags_x64.dll", "Cyberpunk2077.exe", "icudt.dll", "libeay32.dll", "oo2ext_7_win64.dll"]
+                                    }
+                                },
+                                "content": ["expat.dll", "libssl-1_1.dll", "Qt5Core.dll", "REDprelauncher.exe"]
+                            },
+                            "Inscryption": {
+                                "Inscryption_Data": {
+                                    "content": ["level0", "level1", "level2", "level3", "level4", "level5", "level6", "level7"]
+                                },
+                                "content": ["Inscryption.exe", "SaveFile.gwsave"]
+                            },
+                            "GTAV": {
+                                "content": ["bink2w64.dll", "GTA5.exe", "PlayGTAV.exe", "x64a.rpf", "x64b.rpf", "x64c.rpf"]
+                            }
+                        },
+                        "clubelek": {
+                            "Genepi": {
+                                "content": ["230VAC - 24VDC.kicad_pcb", "assembly.asm"]
+                            }
+                        },
+                        "dev": {
+                            "advent-of-code-2022": {
+                                "content": [".gitignore", "day01.ts", "day02.ts", "day03.ts", "day04.ts", "day05.ts", "day06.ts", "day07.ts", "day08.ts", "day09.ts"]
+                            },
+                            "PAL_project": {
+                                "main": {
+                                    "src": {
+                                        "AdminPanel": {
+                                            "content": ["main.js", "terminal.css"]
+                                        },
+                                        "App": {
+                                            "Apps": {
+                                                "content": ["ContextMenu.js", "Database.js", "Decrypter.js", "FileExplorer.js", "ImageViewer.js", "lib.css", "Mail.js", "Minigame.js", "Navigator.js", "PropertiesViewer.js", "TextEditor.js"]
+                                            },
+                                            "content": ["Apps.js", "apps.css"]
+                                        },
+                                        "Desktop": {
+                                            "content": ["desktop.css", "desktop.js", "desktopIcon.js", "taskbar.js"]
+                                        },
+                                        "LoginScreen": {
+                                            "content": ["login.css", "main.js"]
+                                        },
+                                        "content": ["index.css", "index.js", "PC.js", "utils.js"]
+                                    },
+                                    "server": {
+                                        "Filesystem": {
+                                            "content": ["downloadables.js", "filesystem.json", "filesystem.js"]
+                                        },
+                                        "Network": {
+                                            "content": ["database.json", "main.js"]
+                                        },
+                                        "content": ["internet.js", "mails.js", "main.js", "package.json"]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Windows": {
+                    "System32": {
+                        "content" : ["advapi32.dll", "aitstatic.exe", "CastSrv.exe", "CoreMmRes.dll", "defragsvc.dll", "dinput.dll", "encapi.dll", "eqossnap.dll", "HeatCore.dll", "hgcpl.dll", "iologmsg.dll", "kernel32.dll", "keyiso.dll", "MapGeocoder.dll", "MbaeApi.dll", "mpg2splt.ax", "msvpcp140d.dll", "netprovfw.dll", "pcpb.rs", "prm0009.dll", "rasman.dll", "StorSvc.dll", "user32.dll"]
+                    },
+                    "fr-FR": {
+                        "content": ["bfsvc.exe.mui", "helppane.exe.mui", "twain_32.dll.mui"]
+                    },
+                    "content": ["hh.exe", "ODBCINST.INI", "pld.lst", "s.txt", "setupact.log", "sp.exe", "win.ini", "WMSysPr9.prx", "write.exe"]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+.fakeScreen {
+    background-color: #151515;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse
+}
+
+p.terminal {
+    position: relative;
+    left: 50%;
+    margin-left: -8.5em;
+    text-align: left;
+    font-size: 1.4em;
+    font-family: monospace;
+    white-space: normal;
+    overflow-y: scroll;
+    width: 0;
+}
+
+span.terminal {
+    color: #fff;
+    font-weight: bold;
+}
+
+#content {
+    color: #fff;
+    overflow-y: scroll;
+    user-select: text;
+}
+
+.line1,
+#commandInput {
+    color: #fff;
+}
+
+.cursor1 {
+    animation: blink 1s 2s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#commandInput {
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    caret-shape: underscore;
+    font-size: 1.4em;
+    font-family: monospace;
+}
+
+#commandInput:focus {
+    outline: none;
+}
+
+#bluescreen {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: none;
+    background-color: #0853f5;
+    color: white;
+    padding: 10px;
+}
+
+#bluescreen > h1 {
+    position: absolute;
+    font-size: 9rem;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+#bluescreen > h2 {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: 2rem;
+}
+
+.fadeOut {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    top: 0;
+    animation: 1s forwards fadeToBlack;
+    animation-delay: 3s;
+}
+
+@keyframes fadeToBlack {
+    from {background-color: transparent;}
+    to {background-color: black;}
+}

@@ -1,0 +1,223 @@
+{
+    "C:": {
+        "type": "folder",
+        "file_name": "C:",
+        "content": {
+            "Desktop": {
+                "locked": false,
+                "type": "folder",
+                "file_name": "Desktop",
+                "content": {
+                    "FileExplorer.exe": {
+                        "type": "file",
+                        "icon": "",
+                        "extension": "exe",
+                        "file_name": "FileExplorer.exe",
+                        "appid": 2,
+                        "custom_properties": {
+                            "file": "",
+                            "desktop_coords": [0, 100]
+                        }
+                    },
+                    "Side.exe": {
+                        "type": "file",
+                        "icon": "",
+                        "extension": "exe",
+                        "file_name": "Side.exe",
+                        "appid": 6,
+                        "custom_properties": {
+                            "desktop_coords": [0, 300]
+                        }
+                    },
+                    "Mails.exe": {
+                        "type": "file",
+                        "icon": "",
+                        "extension": "exe",
+                        "file_name": "Mails.exe",
+                        "appid": 7,
+                        "custom_properties": {
+                            "desktop_coords": [400, 100]
+                        }
+                    },
+                    "clé.photo": {
+                        "file_name": "clé.photo",
+                        "type": "file",
+                        "icon": "",
+                        "extension": "photo",
+                        "protected": true,
+                        "appid": 3,
+                        "custom_properties": {
+                            "content": "https://scontent-cdg4-3.xx.fbcdn.net/v/t1.15752-9/344591593_762890521945944_8770242482821476229_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=l7Vqi36Q_4UAX9qQUai&_nc_ht=scontent-cdg4-3.xx&oh=03_AdSL_Kfm_-FXfZNMc07uy9ZobEzkNa06QLfjNCiMAmfXZg&oe=64803BA3",
+                            "desktop_coords": [200, 100]
+                        }
+                    },
+                    "babel.docx" : {
+                        "file_name": "babel.docx",
+                        "type": "file",
+                        "icon": "",
+                        "extension": "docx",
+                        "protected": true,
+                        "appid": 1,
+                        "custom_properties": {
+                            "content" : "<h1 style='text-align: center' >La bibliothèque de Babel</h1><img style='height: 300px; margin-left: 50%; transform: translateX(-50%)' src='https://scontent-cdg4-1.xx.fbcdn.net/v/t1.15752-9/344622874_796248795202954_4990171575360591388_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=38ISmxj9fzgAX_kGi4A&_nc_ht=scontent-cdg4-1.xx&oh=03_AdTHPaAmt28iyOfZfdvSVvvGvTFZSA3LJn4ERwiotF_8qw&oe=6484D7B2'/><p>C’est une nouvelle de 80 pages qui a été publiée en 1941 par un certain Jorge Luis Borges. Cette nouvelle décrit une bibliothèque finie avec toutes les combinaisons possibles de 29 caractères (26 lettres minuscule, virgule, espace et point) dans des livres de 410 pages chacun stockés dans une étagère de 32 livres stockés dans des meubles à 5 étagères stockés dans des salles hexagonales avec 4 murs étant des étagères (voir ci-dessous)</p><br/><p>Un site internet a été crée dans la même optique : libraryofbabel.info</p><img src='https://scontent-cdg4-2.xx.fbcdn.net/v/t1.15752-9/345862349_247448984495100_7595060296795895001_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=DMDRsKT9_KUAX_ddO54&_nc_ht=scontent-cdg4-2.xx&oh=03_AdRHNjmQP6JzNziqa2e2MLIfDuy93A7U8MX7BtiQ9fxYlw&oe=6484E981'/>",
+                            "desktop_coords": [200, 300]
+                        }
+                    }
+                }
+            },
+            "Documents": {
+                "locked": false,
+                "type": "folder",
+                "file_name": "Documents",
+                "content": {
+                    "mdp.txt": {
+                        "type": "file",
+                        "file_name": "mdp.txt",
+                        "icon": "",
+                        "extension": "txt",
+                        "locked": false,
+                        "protected": true,
+                        "appid": 1,
+                        "custom_properties": {
+                            "content": "Mot de passe : <b>saucisson</b>"
+                        }
+                    },
+                    "Photos Vacances": {
+                        "type": "folder",
+                        "locked": true,
+                        "file_name": "Photos Vacances",
+                        "hidden_properties": {
+                            "password": "saucisson"
+                        },
+                        "content": {
+                            "img1.jpg": {
+                                "type": "file",
+                                "icon": "",
+                                "file_name": "img1.jpg",
+                                "extension": "photo",
+                                "protected": true,
+                                "appid": 3,
+                                "custom_properties": {
+                                    "content": "https://scontent-cdg4-2.xx.fbcdn.net/v/t1.15752-9/344600015_918176762725945_2545161459392719633_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=bTj19ig9xxMAX_3uStc&_nc_ht=scontent-cdg4-2.xx&oh=03_AdQnTnk7bMAryVCbPVJ-9hnHyIFE56ModlSzL1RNLPZS4w&oe=648460C1"
+                                }
+                            },
+                            "img2.jpg": {
+                                "type": "file",
+                                "icon": "",
+                                "file_name": "img2.jpg",
+                                "extension": "photo",
+                                "protected": true,
+                                "appid": 3,
+                                "custom_properties": {
+                                    "content": "https://scontent-cdg4-2.xx.fbcdn.net/v/t1.15752-9/343117036_949173833070135_1811944323704515077_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=PmkAtALnbhEAX8I4qHm&_nc_ht=scontent-cdg4-2.xx&oh=03_AdR2a4WtqMeRrM6mmF2Psa4yCsVNHnGmMCiy8AvK8G20EA&oe=64845457"
+                                }
+                            },
+                            "img3.jpg": {
+                                "type": "file",
+                                "icon": "",
+                                "file_name": "img3.jpg",
+                                "extension": "photo",
+                                "protected": true,
+                                "appid": 3,
+                                "custom_properties": {
+                                    "content": "https://scontent-cdg4-1.xx.fbcdn.net/v/t1.15752-9/343219415_1187586075242747_6670956326041930546_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=B68C9Z6htdUAX-cI4B_&_nc_ht=scontent-cdg4-1.xx&oh=03_AdSS00GC9miXa8dcgOjObp90z0Bd9EWocb2_Grf08Pst7w&oe=6484610E"
+                                }
+                            }
+                        }
+                    },
+                    "Journal": {
+                        "type": "folder",
+                        "locked": true,
+                        "file_name": "Journal",
+                        "hidden_properties": {
+                            "password": "dsjklghuiojsdfg9284mù+&ù"
+                        },
+                        "content": {
+                            "semaine 1.txt": {
+                                "type": "file",
+                                "file_name": "semaine 1.txt",
+                                "extension": "txt",
+                                "appid": 1,
+                                "custom_properties": {
+                                    "content": "Jour 1: Ma soeur insiste pour que je fasse un journal. Donc je t’ai acheté (lol non tu est un fichier texte).</br> En vrai je ne sais pas quoi en penser, je ne sais pas si tu vas être utile… Mais bon, pour elle je vais faire un effort.</br> Donc aujourd’hui j’ai… bah pas fait grand chose. J’ai assisté à une réunion avec les autres dieux pour faire un point sur comment se passe le monde, notamment tous les différents départements.</br>Personnellement ça me barbe parce que je suis [insert job] et du coup je ne suis pas du tout concerné… </br>Bref, je ne sais pas si j’écrirais içi souvent. je verrais si j’ai des choses à dire.</br></br>Jour 2: Salut journal, aujourd’hui j’ai mangé une pizza au champignon, ananas. J’ai adoré les regards de mes collègues quand la pizza est arrivée.</br></br>Jour 4: j’ai déjà raté un jour, mais en même temps hier j’ai tellement travaillé je n’avais pas le temps. </br>Mais là je n’ai rien à faire ce soir, je suis bie… </br>Oui patron? oui? oui. oui… Bon bah plus maintenant, allez zou direct au reboulot! </br></br>Jour 7: une semaine que j'écris içi."
+                                }
+                            },
+                            "semaine 2.txt": {
+                                "type": "file",
+                                "file_name": "semaine 2.txt",
+                                "extension": "txt",
+                                "appid": 1,
+                                "custom_properties": {
+                                    "content": "Jour 8: Peut-être que vous vous dites que la vie d’un Dieu doit être palpitante et tout. </br>Bah non, aujourd’hui les humains ont râlé de notre travail pendant toute la journée, c’était insupportable. </br>On se surmène pour donner des bonnes institutions, des bonnes solutions aux crises actuelles et ils ne parlent que des travaux qui continuent, des prix qui augmentent etc…</br></br>Jour 10: Bon. Les humains commencent tout doucement à me saouler, il y en a un qui est venu aujourd’hui, c’était un homme noir avec des petites lunettes de soleil roses et il a pas arrêté de me poser pleins de questions très spécifiques sur le réseau, tellement que j’ai du aller chercher dans les archives certaines des réponses. </br>J’espère qu’il n’a rien fait de bizarre dans mon bureau pendant que j’était pas là…</br></br>Jour 13: Je pense à ce que ça doit faire d’être humain, j’y arrive pas. Tout ce que je sais, c’est que j’ai pas envie.</br></br>Jour 14: Une pizza, une bière, un post de télé: la vie de rêve."
+                                }
+                            },
+                            "semaine 3.txt": {
+                                "type": "file",
+                                "file_name": "semaine 3.txt",
+                                "extension": "txt",
+                                "appid": 1,
+                                "custom_properties": {
+                                    "content": "Jour 16: KUIKUI, je n’en peux plus!!!! </br>Le patron m’a encore demandé de faire des trucs de merde à 23h. </br>Je vais le détruire.</br></br>Jour 17: Si quelqu’un trouve ce journal, sachez que mon cerveau va bien, c’est juste que des fois il pète un câble comme hier, je n’en veux absolument pas à mon boss bien sûr…</br></br>Jour 20: Deux choses sont arrivés ces derniers jours:</br>-Ma sœur est venue et a demandé à te voir, mon boss était dans la salle. J’ai refusé. Elle ne me parle plus depuis plusieurs jours maintenant.</br>-Mon boss est une enflure du coup je suis allé faire une visite dans son ordi et j’ai trouvé qu’il jouait à lol à longueur de journée. Du coup mon boss est encore plus une enflure. </br>Tant que j'y étais, j'ai récupéré sa clé SSH. Ca pourrait servir pour plus tard, s'il décide de me faire un coup bas : ed:e8:e4:56:be:40:42:91:0d:8c:7a:b2:c1:34:f5:0a</br></br>Jour 21: J’ai fait une grosse connerie, quand je suis allé dans le PC de mon boss ça a déclenché une alerte chez les Dieux de la DSI </br>(Divinité des Services Informatiques), du coup je me suis pris un lavage par mon boss aujourd’hui. </br>Je n’ai pas envie de travailler, ni d'écrire d’ailleurs. j'écrirai plus tard.</br>"
+                                }
+                            },
+                            "semaine 4.txt": {
+                                "type": "file",
+                                "file_name": "semaine 4.txt",
+                                "extension": "txt",
+                                "appid": 1,
+                                "custom_properties": {
+                                    "content": "Jour 22: je me suis pris un contrôle des Dieux de la DSI aujourd’hui, ils ont trouvé un fichier bizarre à cette adresse: C:/Temp/d0083c187d58c9e2e3996245c8ce73e7, le fichier était censé avoir été supprimé y’a longtemps, je ne comprends pas comment il a atterri là. </br>Faudrait ptet que je sécurise plus mon ordi.</br></br>Jour 23: J’ai pris des mesures drastiques sur mon ordinateur, j’ai tout crypté et privatisé derrière des mots de passe. </br>Je n’ai pas envie que les agents de la DSI fassent encore de la merde sur mon ordinateur. </br>Mais bon… je suis nul pour me rappeler des mes mots de passe lol.</br></br>Jour 25: J’ai parlé aux autres Dieux au sujet de la sécurité des ordinateurs et en fait j'étais le dernier à ne pas sécuriser mon ordinateur, en tout cas dans mon département (informatique).</br>Je ne pense pas que les autres départements soient au courant que c’est dangereux de laisser son PC sans sécurité. Enfin une intrusion dans le réseau privé des Dieux c’est pas arrivé depuis des lustres! Le dernier en fait c’était moi y’a quelques jours… Bon mais avant ça c’était pas arrivé depuis longtemps!</br>                                    "
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "Downloads": {
+                "locked": false,
+                "type": "folder",
+                "file_name": "Downloads",
+                "content": {
+                    
+                }
+            },
+            "Temp" : {
+                "type": "folder",
+                "file_name": "Temp",
+                "custom_properties": {
+                    "hidden": true
+                },
+                "content": {
+                    "d0083c187d58c9e2e3996245c8ce73e7": {
+                        "file_name": "d0083c187d58c9e2e3996245c8ce73e7",
+                        "type": "file",
+                        "icon": "https://static.thenounproject.com/png/287824-200.png",
+                        "extension": "?? (encrypted)",
+                        "appid": -1
+                    }
+                }
+            },
+            "Homework": {
+                "type": "folder",
+                "file_name": "Homework",
+                "hidden_properties": {
+                    "recursive": true
+                },
+                "custom_properties": {
+                    "size": "∞ Ko"
+                },
+                "content": {}
+            }
+        }
+    },
+    "Constants": {
+        "auth_isRecoveryMailReceived": false,
+        "auth_loginPassword": {
+            "user": "CUNCHE_mathieu",
+            "admin": "Oh#]eW,PykrX#j-"
+        },
+        "nnettoyeurDownloaded": false,
+        "isFileCleaned": false,
+        "isIpAvailable": false
+    }
+}

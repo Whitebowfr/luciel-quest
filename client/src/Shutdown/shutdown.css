@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/vcr-osd-mono');
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    vertical-align: middle;
+}
+
+.fadeIn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    animation: fadeInBlack 1s linear forwards;
+}
+
+@keyframes fadeInBlack {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.info {
+    color: white;
+    text-align: center;
+    width: fit-content;
+    position: absolute;
+}
+
+.info > img {
+    height: 100vh;
+}
+
+.info > h1 {
+    font-family: 'VCR OSD Mono', sans-serif;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    top: 75%;
+    white-space: pre;
+    font-size: 5rem;
+}
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes reveale {
+    from {
+        clip-path: inset(0 0 100% 0);
+    }
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+#randomStuff, #randomStuffB {
+    font-family: 'VCR OSD Mono', sans-serif;
+    color: rgb(12, 236, 252);
+    font-size: 0.5rem;
+    overflow-y: scroll;
+    white-space: pre;
+}
+
+#randomStuffB {
+    position: absolute;
+    right: 0;
+    top: 0;
+    clip-path: inset(0 0 100% 0);
+    animation: 10s reveale steps(100, end);
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+}
+
+#randomStuff {
+    animation: 10s reveale steps(97, end);
+    animation-fill-mode: forwards;
+}
+
+.credits {
+    position: absolute;
+    background-color: rgb(75, 75, 75);
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    animation: appear 5s forwards;
+    top: 150%;
+    animation-delay: 30s;
+}
+
+@keyframes appear {
+    from {
+        top: 150%;
+    }
+    to {
+        top: 70%
+    }
+}

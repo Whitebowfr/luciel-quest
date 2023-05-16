@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "start": "concurrently --kill-others \"cd server && nodemon main.js --ignore *.json\" \"cd main && npm start\"",
+        "reset": "cd server/Filesystem && copy /y filesystem_copy.json filesystem.json && cd ../Network && copy /y database_copy.json database.json && cd ../Progress && cd. > logs.txt"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "concurrently": "^8.0.1"
+    }
+}

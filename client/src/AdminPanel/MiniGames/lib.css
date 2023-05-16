@@ -1,0 +1,232 @@
+.snake_container {
+    width: calc(8*50px);
+    height: calc(8*50px);
+    position: relative;
+}
+
+.snake_container>h2 {
+    margin: 0;
+    z-index: 200;
+    position: absolute;
+    color: white;
+}
+
+.snake_cell {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#snake_player {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 99;
+    transition: 0.1s;
+}
+
+.black_hole_container {
+    position: relative;
+    background-color: rgb(31, 54, 61);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.black_hole_cell {
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+    transition: 1s all;
+    position: absolute;
+}
+
+.black_hole_cell.hole::before {
+    background-color: black;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 45px;
+    border-radius: 7px;
+    transform: translateY(5px);
+}
+
+.black_hole_cell.hole {
+    background-color: rgb(22, 39, 44);
+}
+
+.black_hole_cell.top, .black_hole_cell.bottom, .black_hole_cell.left, .black_hole_cell.right, .black_hole_cell.blank {
+    background-color: rgb(174, 203, 214);
+}
+
+.black_hole_cell.top::after, .black_hole_cell.bottom::after, .black_hole_cell.left::after, .black_hole_cell.right::after {
+    display: block;
+    position: relative;
+    transform: translateY(-3px);
+}
+
+.black_hole_cell.top::after {
+    content: url("data:image/svg+xml,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2'%3E%3Cpath d='M22.507 11.397l-.035.021-.028.017-.032.019-.032.02-.031.021-.031.02-.031.022-.031.021-.03.022-.03.023-.03.023-.03.023-.03.024-.029.024-.029.025-.029.025-.028.025-.029.026-.028.027-.028.026-.027.028-12 12a3 3 0 004.242 4.242L24 18.243l9.879 9.878a3 3 0 004.242-4.242l-12-12a3.002 3.002 0 00-3.614-.482z' fill='%23878e88'/%3E%3C/svg%3E");
+}
+
+.black_hole_cell.bottom::after {
+    content: url("data:image/svg+xml,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2'%3E%3Cpath d='M24 25.757l-9.879-9.878a3 3 0 00-4.242 4.242l12 12 .027.028a3.003 3.003 0 003.323.588l.034-.015.034-.016.033-.016.033-.017.032-.017.033-.017.032-.018.033-.018.032-.019.031-.019.032-.019.032-.02.031-.021.031-.02.031-.022.031-.021.03-.022.03-.023.03-.023.03-.023.03-.024.029-.024.029-.025.029-.025.028-.025.029-.026.028-.027.028-.026.027-.028 12-12a3 3 0 00-4.242-4.242L24 25.757z' fill='%23878e88'/%3E%3C/svg%3E");
+}
+
+.black_hole_cell.left::after {
+    content: url("data:image/svg+xml,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2'%3E%3Cpath d='M13.879 19.879l-.028.027a3.003 3.003 0 00-.49 3.521l.018.033.018.033.019.032.019.031.019.032.02.032.021.031.02.031.022.031.021.031.022.03.023.03.023.03.023.03.024.03.024.029.025.029.025.029.025.028.026.029.027.028.026.028.028.027 12 12a3 3 0 004.242-4.242L20.243 22l9.878-9.879a3 3 0 00-4.242-4.242l-12 12z' fill='%23878e88'/%3E%3C/svg%3E");
+}
+
+.black_hole_cell.right::after {
+    content: url("data:image/svg+xml,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2'%3E%3Cpath d='M27.757 22l-9.878 9.879a3 3 0 004.242 4.242l12-12a3 3 0 00.364-3.802l-.022-.032-.021-.031-.022-.03-.023-.03-.023-.03-.023-.03-.024-.03-.024-.029-.025-.029-.025-.029-.025-.028-.026-.029-.027-.028-.026-.028-.028-.027-12-12a3 3 0 00-4.242 4.242L27.757 22z' fill='%23878e88'/%3E%3C/svg%3E");
+}
+
+.black_hole_cell.top::before, .black_hole_cell.bottom::before, .black_hole_cell.left::before, .black_hole_cell.right::before, .black_hole_cell.blank::before {
+    content: "";
+    background-color: rgb(242, 247, 246);
+    width: 50px;
+    height: 47px;
+    border-radius: 7px;
+    transform: translateY(-3px);
+    display: block;
+    position: absolute;
+}
+
+.black_hole_container > #black_hole_fade {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#black_hole_fade:not(.fadeIn) {
+    pointer-events: none;
+}
+
+.black_hole_container > #black_hole_fade.fadeIn {
+    background-color: rgb(61, 61, 61);
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.black_hole_moves {
+    color: white;
+    margin: 0;
+    font-size: 1.4rem
+}
+
+.word_scramble_letters {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    background-color: rgb(112, 112, 112);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.word_scramble {
+    color: white;
+}
+
+#word_scramble_input {
+    display: block;
+    color: white
+}
+
+.word_indicator {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.word_completed {
+    background-color: green;
+}
+
+.word_indicator_container {
+    width: fit-content;
+}
+
+.writing_container {
+    color: white;
+}
+
+#writing_input {
+    color: white
+}
+
+.writing_word::after {
+    content: attr(data-text);
+    pointer-events: none;
+    position: absolute;
+    opacity: 0.6;
+    left: 23.9px;
+    transform: translateY(5.5px);
+}
+
+.roll_container {
+    position: relative;
+    height: 15rem;
+}
+
+.roll_letter {
+    width: fit-content;
+    font-size: 2rem;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 3.5rem;
+    color: black;
+    background-color: white;
+}
+
+.roll_letter[data-correct="true"],
+.roll_letter[data-correct-previous="true"]:before,
+.roll_letter[data-correct-next="true"]:after {
+    color: red;
+}
+
+.roll_letter[data-correct-next="false"]:after,
+.roll_letter[data-correct-previous="false"]:before {
+    color: black;
+}
+
+.roll_letter::before {
+    content: attr(data-previous);
+    position: absolute;
+    transform: translate(-10px, -70px);
+    background-color: gray;
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.roll_letter::after {
+    content: attr(data-next);
+    position: absolute;
+    opacity: 0.6;
+    transform: translate(-29.3px, 50px);
+    background-color: gray;
+    padding: 10px
+}
+
+.roll_letter.selected {
+    background-color: rgb(190, 190, 190);
+}

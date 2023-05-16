@@ -1,0 +1,44 @@
+.app_container {
+    background-color: white;
+    z-index: 90;
+    position: absolute;
+    min-width: 100px;
+    min-height: 100px;
+    overflow: hidden;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.title_container {
+    background-color: lightgray;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    cursor: default;
+}
+
+.title_wrapper {
+    width: calc(100% - 25px);
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.title {
+    margin: 0 40px 0 40px;
+    text-align: center;
+    font-size: 14pt;
+    display: inline-block;
+}
+
+.selected {
+    z-index: 99
+}
+
+.fullscreen {
+    width: 100vw;
+    height: 95vh;
+}
+
+.buttons_wrapper {
+    float: right;
+}
